@@ -41,3 +41,6 @@ Pasta env - arquivo de configuracoes dos ambientes
 
 gemfile - onde fica instalado os gem que serão utilizados no projeto
 
+# Rodar 
+
+Bastar ir no terminal e executar "cucumber"
