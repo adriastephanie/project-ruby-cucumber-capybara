@@ -2,7 +2,7 @@
 
 # Contexto 
 
-Repositório para teste e2e 
+Repositório com projeto básico de automação
 
 ## Ruby: 
 linguagem dinâmica, open source com foco na simplicidade e na produtividade. Tem uma sintaxe elegante de leitura natural e fácil escrita.
@@ -24,7 +24,7 @@ fornece um DSL (Domain Specific Language, uma linguagem de programação dedicad
 
 cucumber --init dentro da pasta tests/
 
-depois 
+para criar arquitetura do projeto
 
 # Arquitetura
 
@@ -37,7 +37,7 @@ Pasta step_definitions - pasta onde são executado os testes
 
 Pasta suporte - pasta ronde fica as configuracoes
 
-Pasta env - arquivo de configuracoes
+Pasta env - arquivo de configuracoes dos ambientes
 
 gemfile - onde fica instalado os gem que serão utilizados no projeto
 
