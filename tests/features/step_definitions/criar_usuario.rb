@@ -5,6 +5,5 @@ Quando('eu cadastro meu usuário') do
 end
 
 Então('eu verifico se o usuário foi cadastrado') do
-@message = find('#notice')
-expect(@message.text).to eql 'Usuário Criado com sucesso'
+    expect(user.alert_message).to include 'Usuário Criado com sucesso'
 end

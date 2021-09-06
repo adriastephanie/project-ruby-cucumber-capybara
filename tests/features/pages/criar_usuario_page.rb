@@ -25,5 +25,9 @@ class User < SitePrism::Page
         
     end
 
+    def alert_message
+        sucesso.text 
+    end
+
     
 end
